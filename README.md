@@ -61,7 +61,7 @@ Next.js has built-in TypeScript declarations, so we'll get autocompletion for Ne
 
 A `type-check` script is also added to `package.json`, which runs TypeScript's `tsc` CLI in `noEmit` mode to run type-checking separately. You can then include this, for example, in your `test` scripts.
 
-## 手順
+## 手順
 - `docker-compose.yml`の`volumes`がない状態で`Dockerfile`に定義したイメージで`node`のコンテナを作る
 - `/usr/src/app`配下で`yarn`が使えること確認し、以下を実行し、プロジェクトを作る
 
