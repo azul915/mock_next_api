@@ -1,0 +1,12 @@
+version: '3'
+services:
+  mockapi:
+    build: .
+    ports:
+      - 5000:5000
+    volumes: 
+      - ./with-typescript-app:/usr/src/app/with-typescript-app
+    working_dir: /usr/src/app/with-typescript-app
+    command: yarn dev
+    stdin_open: true
+    tty: true
